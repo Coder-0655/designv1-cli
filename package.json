@@ -1,5 +1,5 @@
 {
-  "name": "@designv1/cli",
+  "name": "designv1",
   "version": "0.1.0",
   "description": "DesignV1: a CLI that scans your codebase and proposes/applies UI polish refactors.",
   "license": "UNLICENSED",
@@ -13,6 +13,9 @@
     "src/",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18"
   },

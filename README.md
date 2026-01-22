@@ -14,16 +14,16 @@ From this repo:
 
 ## Install & run anywhere (after publishing to npm)
 
-Once this package is published to npm as `@designv1/cli`, users can run it on any machine without cloning:
-- Run once (no install): `npx @designv1/cli --help`
-- Scan a project: `cd your-project && npx @designv1/cli scan`
-- Interactive UI: `cd your-project && npx @designv1/cli`
+Once this package is published to npm as `designv1`, users can run it on any machine without cloning:
+- Run once (no install): `npx designv1 --help`
+- Scan a project: `cd your-project && npx designv1 scan`
+- Interactive UI: `cd your-project && npx designv1`
 
 With Bun:
-- `cd your-project && bunx @designv1/cli scan`
+- `cd your-project && bunx designv1 scan`
 
 Or install globally:
-- `npm i -g @designv1/cli` then run `designv1`
+- `npm i -g designv1` then run `designv1`
 
 ## Usage
 
