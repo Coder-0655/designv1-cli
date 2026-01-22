@@ -1,0 +1,7 @@
+.designv1/
+node_modules/
+.next/
+dist/
+build/
+out/
+.env

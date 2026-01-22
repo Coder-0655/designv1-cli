@@ -1,0 +1,27 @@
+{
+  "name": "@designv1/cli",
+  "version": "0.1.0",
+  "description": "DesignV1: a CLI that scans your codebase and proposes/applies UI polish refactors.",
+  "license": "UNLICENSED",
+  "private": false,
+  "bin": {
+    "designv1": "bin/designv1.js",
+    "DesignV1": "bin/designv1.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "scripts": {
+    "dev": "node bin/designv1.js",
+    "designv1": "node bin/designv1.js",
+    "scan": "node bin/designv1.js scan",
+    "improve": "node bin/designv1.js improve",
+    "lint:designv1": "node -c bin/designv1.js && node -c src/cli/index.js"
+  }
+}
